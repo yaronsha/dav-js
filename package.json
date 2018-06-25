@@ -24,11 +24,12 @@
     "build-prod": "webpack --mode production",
     "postinstall": "npm run build-prod",
     "start-testnet": "dav-cli --start",
-    "test": "gulp js"
+    "test": "mocha"
   },
   "dependencies": {
     "ajv": "^6.2.0",
     "axios": "^0.18.0",
+    "mocha": "^5.2.0",
     "rx-lite": "^4.0.8",
     "truffle-contract": "^3.0.4",
     "truffle-hdwallet-provider": "0.0.3",
